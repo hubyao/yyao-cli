@@ -1,0 +1,25 @@
+{
+    "name": "yyao-cli",
+    "version": "1.0.1",
+    "description": "",
+    "main": "index.js",
+    "bin": {
+        "yyao": "bin/yyao",
+        "yyao-init": "bin/yyao-init",
+        "yyao-upload": "bin/yyao-upload"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^2.4.2",
+        "commander": "^3.0.2",
+        "download-git-repo": "^3.0.2",
+        "inquirer": "^7.0.0",
+        "ora": "^4.0.2",
+        "shelljs": "^0.8.4",
+        "yyao-cli": "^1.0.0"
+    }
+}
